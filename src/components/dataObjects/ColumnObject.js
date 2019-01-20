@@ -1,8 +1,9 @@
 import React from 'react';
-import MTree from '../MTree'
+// import Tree from 'react-animated-tree'
+import Tree from '../Tree'
 
 const ColumnObject = (props) => (
-    <MTree content={props.content} type="COL" color="#A0A0A0" click={() => console.log('whatsupcolumn')} />
+    <Tree content={props.content} type="COL" style={{color:'#A0A0A0'}} />
 );
 
 export default ColumnObject;

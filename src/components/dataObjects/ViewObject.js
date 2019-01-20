@@ -1,5 +1,6 @@
 import React from 'react';
-import Tree from 'react-animated-tree'
+// import Tree from 'react-animated-tree'
+import Tree from '../Tree'
 import ColumnObject from './ColumnObject'
 
 

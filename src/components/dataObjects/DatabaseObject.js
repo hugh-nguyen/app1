@@ -1,10 +1,11 @@
 import React from 'react';
-import Tree from 'react-animated-tree'
+// import Tree from 'react-animated-tree'
+import Tree from '../Tree'
 import TableObject from './TableObject'
 import ViewObject from './ViewObject'
 
 const DatabaseObject = (props) => (
-    <Tree content={props.content} type="DB">
+    <Tree content={props.content} type="DB" metadata={props.metadata}>
         <Tree content="" type="TABLES" style={{color:'#3498DB'}}>
             {
                 props.tables.map((table,index) => {

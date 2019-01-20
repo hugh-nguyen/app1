@@ -1,13 +1,10 @@
 import React from 'react';
-import MTree from '../MTree'
+// import Tree from 'react-animated-tree'
+import Tree from '../Tree'
 import ColumnObject from './ColumnObject'
 
-const expand = () => {
-    console.log('expand whatsup table');
-}
-
 const TableObject = (props) => (
-    <MTree content={props.content} type="TABLE" click={expand}>
+    <Tree content={props.content} type="TABLE">
         {
             props.columns.map((column,index) => {
                 return (
@@ -15,7 +12,7 @@ const TableObject = (props) => (
                 )
             })
         }
-    </MTree>
+    </Tree>
 );
 
 export default TableObject;
