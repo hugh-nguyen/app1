@@ -1,0 +1,193 @@
+{
+	"databases": [
+		{
+			"name": "Database 1",
+			
+			"tables": [
+				{
+					"name":"Table 1",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						},
+						{
+							"type":"column",
+							"name":"Column 4"
+						}	
+					]
+				},
+				{
+					"name":"Table 2",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						}
+					]
+				},
+				{
+					"name":"Table 3",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						}	
+					]
+				}
+			],
+			"views": [
+				{
+					"name":"View 1",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						}
+					]
+				},
+				{
+					"name":"View 2",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						}	
+					]
+				}
+			]
+		},
+		{
+			"name": "Database 2",
+			"tables": [
+				{
+					"name":"Table 1",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						}	
+					]
+				},
+				{
+					"name":"Table 2",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						}	
+					]
+				},
+				{
+					"name":"Table 3",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						},
+						{
+							"type":"column",
+							"name":"Column 4"
+						}	
+					]
+				}
+			],
+			"views": [
+				{
+					"name":"View 1",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						},
+						{
+							"type":"column",
+							"name":"Column 4"
+						}
+					]
+				},
+				{
+					"name":"View 2",
+					"columns": [
+						{
+							"type":"column",
+							"name":"Column 1"
+						},
+						{
+							"type":"column",
+							"name":"Column 2"
+						},
+						{
+							"type":"column",
+							"name":"Column 3"
+						}	
+					]
+				}
+			]
+		}
+	]
+}
