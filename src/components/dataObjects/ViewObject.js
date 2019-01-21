@@ -3,9 +3,8 @@ import React from 'react';
 import Tree from '../Tree'
 import ColumnObject from './ColumnObject'
 
-
 const ViewObject = (props) => (
-    <Tree content={props.content} type="VIEW">
+    <Tree content={props.content} type="VIEW" metadata={props.metadata} click={props.click}>
          {
             props.columns.map((column,index) => {
                 return (

@@ -47,7 +47,8 @@ export default class Tree extends React.PureComponent {
     canHide: PropTypes.bool,
     content: PropTypes.node,
     springConfig: PropTypes.func,
-    metadata: PropTypes.node
+    metadata: PropTypes.string,
+    cccc: PropTypes.string
   }
 
   constructor(props) {
@@ -58,7 +59,7 @@ export default class Tree extends React.PureComponent {
   toggle = () => {
     this.props.children &&
     this.setState(state => ({ open: !state.open, immediate: false }))
-    console.log(this.props)
+    this.props.click(this.props.metadata)
   }
    
 
@@ -81,7 +82,7 @@ export default class Tree extends React.PureComponent {
 
   render() {
     const { open, visible, immediate } = this.state
-    const { children, content, type, style, canHide, springConfig, metadata } = this.props
+    const { children, content, type, style, canHide, springConfig, metadata, cccc } = this.props
     const Icon =
       Icons[`${children ? (open ? 'Minus' : 'Plus') : 'Close'}SquareO`]
 
@@ -102,7 +103,7 @@ export default class Tree extends React.PureComponent {
             onClick={this.toggleVisibility}
           />
         )}
-        <span style={{ verticalAlign: 'middle', cursor: 'pointer' }} onClick={this.toggle}>{content}{metadata}</span>
+        <span style={{ verticalAlign: 'middle', cursor: 'pointer' }} onClick={this.toggle}>{content}</span>
         <Spring
           native
           immediate={immediate}
